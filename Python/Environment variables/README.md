@@ -1,0 +1,1 @@
+https://medium.com/@thedataisaac/mastering-data-security-in-python-a-deep-dive-into-env-files-and-python-dotenv-bf2324fc619

@@ -1,4 +1,4 @@
--- Drop the 'person table
+-- Drop the 'person' table
 DROP TABLE person IF EXISTS;
 
 -- Create the 'person' table
@@ -21,10 +21,10 @@ INSERT INTO person (id, first_name, last_name, email, gender, country_of_birth, 
 INSERT INTO person (id, first_name, last_name, email, gender, country_of_birth, car_make) VALUES (6, 'Maria', 'Iddon', 'middon8@tripadvisor.com', 'Female', 'Philippines', 'Land Rover');
 INSERT INTO person (id, first_name, last_name, email, gender, country_of_birth, car_make) VALUES (7, 'Rog', 'McArdell', 'rmcardell9@list-manage.com', 'Male', 'Poland', null);
 
--- Create A CTE named 'no_email' to select rows where the email is non-null
--- and select specific columns from the 'no_email' cte
-WITH no_email AS (SELECT * FROM person WHERE email IS NOT NULL)
-SELECT id,first_name,last_name FROM no_email;
+-- Create A CTE named 'got_email' to select rows where the email is non-null
+-- and select specific columns from the 'got_email' cte
+WITH got_email AS (SELECT * FROM person WHERE email IS NOT NULL)
+SELECT id,first_name,last_name FROM got_email;
 
 --Create two CTEs named 'no_email' and 'no_car'
 -- filter rows from the 'person' table except those in 'no_email' and 'no_car' CTEs
