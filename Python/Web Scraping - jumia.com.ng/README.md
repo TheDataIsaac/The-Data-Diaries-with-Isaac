@@ -22,6 +22,8 @@ In this tutorial, we cover the following key topics:
 - Parsing web page content with BeautifulSoup.
 - Extracting data from web elements.
 
+Read now: https://medium.com/@thedataisaac/learn-web-scraping-by-example-scraping-real-data-from-an-e-commerce-site-e7a97ed2e01
+
 ## Code Structure
 
 The repository is organized as follows:
