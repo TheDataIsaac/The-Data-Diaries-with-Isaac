@@ -1,6 +1,6 @@
 # How to Automate Cryptocurrency Data Collection with APIs
 
-This repository contains Python code that shows you how to use APIs to automate the data collection process for cryptocurrencies. The code is based on the article [here](insert_article_link_here), which explains the concepts and logic behind the code in detail. The article is inspired by Alex Freberg's video.
+This repository contains Python code that shows you how to use APIs to automate the data collection process for cryptocurrencies. The code is based on the article [here](https://medium.com/@thedataisaac/a-guide-to-automated-data-retrieval-with-apis-d8547afbd50f), which explains the concepts and logic behind the code in detail. The article is inspired by Alex Freberg's video.
 
 ## What You Will Learn
 
@@ -14,4 +14,4 @@ By exploring this project, you will learn how to:
 
 ## Credits
 
-- This project is based on the article that discusses the concepts and implementation of the code. You can read the article [here](insert_article_link_here) for more details.  
+- This project is based on the article that discusses the concepts and implementation of the code. You can read the article [here](https://medium.com/@thedataisaac/a-guide-to-automated-data-retrieval-with-apis-d8547afbd50f) for more details.  
