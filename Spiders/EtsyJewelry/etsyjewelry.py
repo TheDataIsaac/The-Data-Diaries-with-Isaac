@@ -14,15 +14,17 @@ class EtsyJewelry(CrawlSpider):
         Rule(LinkExtractor(allow=r'search\?q=handmade\+jewelry.*page=\d+'), follow=True),
     )
 
-
+        
     def parse_item(self, response):
         title=response.css("h1[class='wt-text-body-01 wt-line-height-tight wt-break-word wt-mt-xs-1']::text").get().strip()
         brand=response.css("span[class='wt-text-title-small'] a::text").get().strip()
         try:
             price=response.css("p[class='wt-text-title-largest wt-mr-xs-1 wt-text-slime'] *::text").getall()[-1].strip()
+            price=self.tidy_currency(price)
         except:
             try:
                 price=response.css("p[class='wt-text-title-largest wt-mr-xs-1 '] *::text").getall()[-1].strip()
+                price=self.tidy_currency(price)
             except:
                 price=""
                                          
@@ -32,8 +34,13 @@ class EtsyJewelry(CrawlSpider):
             "price":price
         }
 
-
-
+    def tidy_currency(self, currency):
+        print("\nBEFORE",currency)
+        currency = currency.replace('$', '').replace(',', '')
+        if currency.endswith('+'):
+            return currency[:-1]
+        else:
+            return '{:.2f}'.format(float(currency))
 
 # Run the spider
 if __name__ == "__main__":
