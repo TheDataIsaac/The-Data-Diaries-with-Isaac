@@ -15,8 +15,8 @@ You also need to clone this repository to your local machine
 Then, you can navigate to the directory of the web crawler that you want to use and run it using the I have completed the readme for the directory containing the files of codes used in the web scraping series. Here's the rest of the readme:
 
 ## Feedback and requests
-I hope you find this web scraping series useful and enjoyable. If you do, please give this repository a star and share it with your friends. I would love to hear your feedback and suggestions on how to improve this series. You can leave a comment on my YouTube videos or send me an email at jesufemioresanya03@gmail.com.
+I hope you find this web scraping series useful and enjoyable. If you do, please give this repository a star and share it with your friends. I would love to hear your feedback and suggestions on how to improve this series. You can send me an email at jesufemioresanya03@gmail.com.
 
-Also, if you have a specific website that you want me to scrape for you, please let me know in the comments section of my YouTube videos or email me the link of the website and the data that you want to extract. I'll do my best to create a spider for it and share it with you in the next episode.
+Also, if you have a specific website that you want me to scrape for you, please email me the link of the website and the data that you want to extract. I'll do my best to create a spider for it and share it with you in the next episode.
 
 Thank you for your support and stay tuned for more web scraping fun!
