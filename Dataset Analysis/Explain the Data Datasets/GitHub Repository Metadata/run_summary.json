@@ -1,0 +1,92 @@
+[
+  {
+    "start_date": "2023-04-01",
+    "end_date": "2023-06-30",
+    "output_file": "github_data_compressed/repos_2023-04-01_to_2023-06-30.jsonl.gz",
+    "repos_found_github": 2048,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 14420.65
+  },
+  {
+    "start_date": "2023-01-01",
+    "end_date": "2023-03-31",
+    "output_file": "github_data_compressed/repos_2023-01-01_to_2023-03-31.jsonl.gz",
+    "repos_found_github": 1838,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 15035.73
+  },
+  {
+    "start_date": "2022-10-01",
+    "end_date": "2022-12-31",
+    "output_file": "github_data_compressed/repos_2022-10-01_to_2022-12-31.jsonl.gz",
+    "repos_found_github": 1663,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 15555.51
+  },
+  {
+    "start_date": "2022-07-01",
+    "end_date": "2022-09-30",
+    "output_file": "github_data_compressed/repos_2022-07-01_to_2022-09-30.jsonl.gz",
+    "repos_found_github": 1495,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 15271.66
+  },
+  {
+    "start_date": "2022-04-01",
+    "end_date": "2022-06-30",
+    "output_file": "github_data_compressed/repos_2022-04-01_to_2022-06-30.jsonl.gz",
+    "repos_found_github": 1429,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 15015.37
+  },
+  {
+    "start_date": "2022-01-01",
+    "end_date": "2022-03-31",
+    "output_file": "github_data_compressed/repos_2022-01-01_to_2022-03-31.jsonl.gz",
+    "repos_found_github": 1325,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 13852.72
+  },
+  {
+    "start_date": "2021-10-01",
+    "end_date": "2021-12-31",
+    "output_file": "github_data_compressed/repos_2021-10-01_to_2021-12-31.jsonl.gz",
+    "repos_found_github": 1159,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 15231.97
+  },
+  {
+    "start_date": "2021-07-01",
+    "end_date": "2021-09-30",
+    "output_file": "github_data_compressed/repos_2021-07-01_to_2021-09-30.jsonl.gz",
+    "repos_found_github": 1192,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 14743.31
+  },
+  {
+    "start_date": "2021-04-01",
+    "end_date": "2021-06-30",
+    "output_file": "github_data_compressed/repos_2021-04-01_to_2021-06-30.jsonl.gz",
+    "repos_found_github": 1283,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 15587.73
+  },
+  {
+    "start_date": "2021-01-01",
+    "end_date": "2021-03-31",
+    "output_file": "github_data_compressed/repos_2021-01-01_to_2021-03-31.jsonl.gz",
+    "repos_found_github": 1088,
+    "repos_processed_script": 1000,
+    "repos_saved_successfully": 1000,
+    "duration_seconds": 16016.52
+  }
+]
